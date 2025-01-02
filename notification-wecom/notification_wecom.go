@@ -7,7 +7,7 @@ import (
   "strings"
 
   "github.com/apache/incubator-answer-plugins/util"
-  wecomI18n "github.com/apache/incubator-answer-plugins/notification-wecom/i18n"
+  wecomI18n "github.com/lhui/incubator-answer-plugins/notification-wecom/i18n"
   "github.com/segmentfault/pacman/i18n"
   "github.com/segmentfault/pacman/log"
 )

@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/apache/incubator-answer-plugins/notification-wecom/i18n"
+	"github.com/lhui/incubator-answer-plugins/notification-wecom/i18n"
 	"github.com/apache/incubator-answer/plugin"
 	"github.com/segmentfault/pacman/log"
 )
