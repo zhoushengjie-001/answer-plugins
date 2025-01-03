@@ -56,6 +56,7 @@ The Notification plugin helps us to send messages to third-party notification sy
 - [x] [Slack](https://github.com/apache/incubator-answer-plugins/tree/main/notification-slack)
 - [x] [Lark](https://github.com/apache/incubator-answer-plugins/tree/main/notification-lark)
 - [x] [Ding talk](https://github.com/apache/incubator-answer-plugins/tree/main/notification-dingtalk)
+- [x] [WeCom](https://github.com/apache/incubator-answer-plugins/tree/main/notification-wecom)
 
 ### Route
 

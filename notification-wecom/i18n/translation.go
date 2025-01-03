@@ -16,6 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
 package i18n
 
 const (
@@ -39,14 +40,14 @@ const (
 	UserConfigNewQuestionsForFollowingTagsLabel       = "plugin.wecom_notification.backend.user_config.new_questions_for_following_tags.label"
 	UserConfigNewQuestionsForFollowingTagsDescription = "plugin.wecom_notification.backend.user_config.new_questions_for_following_tags.description"
 
-	TplUpdateQuestion          = "plugin.wecom_notification.backend.tpl.update_question.text"
-	TplAnswerTheQuestion       = "plugin.wecom_notification.backend.tpl.answer_the_question.text"
-	TplUpdateAnswer            = "plugin.wecom_notification.backend.tpl.update_answer.text"
-	TplAcceptAnswer            = "plugin.wecom_notification.backend.tpl.accept_answer.text"
-	TplCommentQuestion         = "plugin.wecom_notification.backend.tpl.comment_question.text"
-	TplCommentAnswer           = "plugin.wecom_notification.backend.tpl.comment_answer.text"
-	TplReplyToYou              = "plugin.wecom_notification.backend.tpl.reply_to_you.text"
-	TplMentionYou              = "plugin.wecom_notification.backend.tpl.mention_you.text"
-	TplInvitedYouToAnswer      = "plugin.wecom_notification.backend.tpl.invited_you_to_answer.text"
-	TplNewQuestion             = "plugin.wecom_notification.backend.tpl.new_question.text"
+	TplUpdateQuestion     = "plugin.wecom_notification.backend.tpl.update_question.text"
+	TplAnswerTheQuestion  = "plugin.wecom_notification.backend.tpl.answer_the_question.text"
+	TplUpdateAnswer       = "plugin.wecom_notification.backend.tpl.update_answer.text"
+	TplAcceptAnswer       = "plugin.wecom_notification.backend.tpl.accept_answer.text"
+	TplCommentQuestion    = "plugin.wecom_notification.backend.tpl.comment_question.text"
+	TplCommentAnswer      = "plugin.wecom_notification.backend.tpl.comment_answer.text"
+	TplReplyToYou         = "plugin.wecom_notification.backend.tpl.reply_to_you.text"
+	TplMentionYou         = "plugin.wecom_notification.backend.tpl.mention_you.text"
+	TplInvitedYouToAnswer = "plugin.wecom_notification.backend.tpl.invited_you_to_answer.text"
+	TplNewQuestion        = "plugin.wecom_notification.backend.tpl.new_question.text"
 )
