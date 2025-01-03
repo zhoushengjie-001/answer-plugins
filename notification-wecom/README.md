@@ -1,5 +1,7 @@
 # Wecom Notification Plugin
 
+[English](./README.md) | [中文](./README_CN.md)
+
 ## How to use
 
 To use the notification-wecom plugin with your application, install it using the following command:
