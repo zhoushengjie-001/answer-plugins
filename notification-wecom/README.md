@@ -5,7 +5,7 @@
 To use the notification-wecom plugin with your application, install it using the following command:
 
 ```bash
-./answer build --with github.com/lhui/incubator-answer-plugins/notification-wecom
+./answer build --with github.com/apache/incubator-answer-plugins/notification-wecom
 ```
 
 

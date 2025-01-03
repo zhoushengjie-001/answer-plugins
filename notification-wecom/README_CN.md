@@ -5,7 +5,7 @@
 要使用通知企业微信通知插件，请使用以下命令进行安装：
 
 ```bash
-./answer build --with github.com/lhui/incubator-answer-plugins/notification-wecom
+./answer build --with github.com/apache/incubator-answer-plugins/notification-wecom
 ```
 
 

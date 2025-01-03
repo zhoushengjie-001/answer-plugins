@@ -1,5 +1,5 @@
 slug_name: notification_wecom
 type: notification
-version: 0.0.1
+version: 1.0.0
 author: lihui
-link: https://github.com/lhui/incubator-answer-plugins/tree/dev/notification-wecom
+link: https://github.com/apache/incubator-answer-plugins/tree/main/notification-wecom

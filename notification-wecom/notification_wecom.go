@@ -1,15 +1,14 @@
 package wecom
 
 import (
-  "embed"
-  "github.com/apache/incubator-answer/plugin"
-  "github.com/go-resty/resty/v2"
-  "strings"
+	"embed"
+	"github.com/apache/incubator-answer/plugin"
+	"strings"
 
-  "github.com/apache/incubator-answer-plugins/util"
-  wecomI18n "github.com/lhui/incubator-answer-plugins/notification-wecom/i18n"
-  "github.com/segmentfault/pacman/i18n"
-  "github.com/segmentfault/pacman/log"
+	wecomI18n "github.com/apache/incubator-answer-plugins/notification-wecom/i18n"
+	"github.com/apache/incubator-answer-plugins/util"
+	"github.com/segmentfault/pacman/i18n"
+	"github.com/segmentfault/pacman/log"
 )
 
 //go:embed  info.yaml
@@ -28,20 +27,18 @@ func init() {
 	plugin.Register(uc)
 }
 func (*Notification) Info() plugin.Info {
-  info := &util.Info{}
+	info := &util.Info{}
 	info.GetInfo(Info)
 
-  return plugin.Info{
-    Name:        plugin.MakeTranslator(wecomI18n.InfoName),
-    SlugName:    info.SlugName,
-    Description: plugin.MakeTranslator(wecomI18n.InfoDescription),
-    Author:      info.Author,
-    Version:     info.Version,
-    Link:        info.Link,
-  }
+	return plugin.Info{
+		Name:        plugin.MakeTranslator(wecomI18n.InfoName),
+		SlugName:    info.SlugName,
+		Description: plugin.MakeTranslator(wecomI18n.InfoDescription),
+		Author:      info.Author,
+		Version:     info.Version,
+		Link:        info.Link,
+	}
 }
-
-
 
 // GetNewQuestionSubscribers returns the subscribers of the new question notification
 func (n *Notification) GetNewQuestionSubscribers() (userIDs []string) {
@@ -98,7 +95,7 @@ func (n *Notification) Notify(msg plugin.NotificationMessage) {
 		return
 	}
 
-	notificationMsg:= renderNotification(msg)
+	notificationMsg := renderNotification(msg)
 	// no need to send empty message
 	if len(notificationMsg) == 0 {
 		log.Debugf("this type of notification will be drop, the type is %s", msg.Type)
@@ -119,7 +116,7 @@ func (n *Notification) Notify(msg plugin.NotificationMessage) {
 	}
 }
 
-func renderNotification(msg plugin.NotificationMessage) (string) {
+func renderNotification(msg plugin.NotificationMessage) string {
 	lang := i18n.Language(msg.ReceiverLang)
 	switch msg.Type {
 	case plugin.NotificationUpdateQuestion:
@@ -146,4 +143,3 @@ func renderNotification(msg plugin.NotificationMessage) (string) {
 	}
 	return ""
 }
-

@@ -22,7 +22,7 @@ package wecom
 import (
 	"encoding/json"
 
-	"github.com/lhui/incubator-answer-plugins/notification-wecom/i18n"
+	"github.com/apache/incubator-answer-plugins/notification-wecom/i18n"
 	"github.com/apache/incubator-answer/plugin"
 )
 

@@ -1,4 +1,4 @@
-module github.com/lhui/incubator-answer-plugins/notification-wecom
+module github.com/apache/incubator-answer-plugins/notification-wecom
 
 go 1.23.4
 
