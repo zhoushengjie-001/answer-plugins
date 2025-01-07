@@ -25,7 +25,6 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
-	"github.com/apache/answer-plugins/util"
 	"net/http"
 	"net/url"
 	"path/filepath"
@@ -34,7 +33,9 @@ import (
 	"time"
 
 	"github.com/apache/answer-plugins/storage-tencentyuncos/i18n"
+	"github.com/apache/answer-plugins/util"
 	"github.com/apache/answer/plugin"
+	"github.com/tencentyun/cos-go-sdk-v5"
 )
 
 //go:embed  info.yaml

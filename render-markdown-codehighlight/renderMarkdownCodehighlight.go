@@ -22,11 +22,12 @@ package render_markdown_codehighlight
 import (
 	"embed"
 	"encoding/json"
+	"strings"
+
 	"github.com/apache/answer-plugins/render-markdown-codehighlight/i18n"
 	"github.com/apache/answer-plugins/util"
 	"github.com/apache/answer/plugin"
 	"github.com/gin-gonic/gin"
-	"strings"
 )
 
 //go:embed info.yaml

@@ -25,13 +25,13 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
-	"github.com/apache/answer-plugins/util"
 	"path/filepath"
 	"strconv"
 	"strings"
 	"time"
 
 	"github.com/apache/answer-plugins/storage-s3/i18n"
+	"github.com/apache/answer-plugins/util"
 	"github.com/apache/answer/plugin"
 )
 

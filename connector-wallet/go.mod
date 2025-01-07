@@ -3,8 +3,8 @@ module github.com/apache/answer-plugins/connector-wallet
 go 1.22.0
 
 require (
-	github.com/apache/answer v1.4.1
-	github.com/apache/answer-plugins/util v1.0.2
+	github.com/apache/answer v1.4.2-RC1.0.20250107023923-061894735091
+	github.com/apache/answer-plugins/util v1.0.3-0.20250107030257-cf94ebc70954
 	github.com/i-lucifer/crypto v0.0.2
 	golang.org/x/exp v0.0.0-20240909161429-701f63a606c0
 )

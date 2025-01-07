@@ -26,6 +26,7 @@ import (
 	slackI18n "github.com/apache/answer-plugins/notification-slack/i18n"
 	"github.com/apache/answer-plugins/util"
 	"github.com/apache/answer/plugin"
+	"github.com/go-resty/resty/v2"
 	"github.com/segmentfault/pacman/i18n"
 	"github.com/segmentfault/pacman/log"
 )

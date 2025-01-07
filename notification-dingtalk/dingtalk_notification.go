@@ -21,11 +21,12 @@ package dingtalk
 
 import (
 	"embed"
-	"github.com/apache/answer-plugins/util"
 	"strings"
 
 	dingtalkI18n "github.com/apache/answer-plugins/notification-dingtalk/i18n"
+	"github.com/apache/answer-plugins/util"
 	"github.com/apache/answer/plugin"
+	"github.com/go-resty/resty/v2"
 	"github.com/segmentfault/pacman/i18n"
 	"github.com/segmentfault/pacman/log"
 )

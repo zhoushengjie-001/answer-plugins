@@ -3,8 +3,8 @@ module github.com/apache/answer-plugins/reviewer-basic
 go 1.22.0
 
 require (
-	github.com/apache/answer v1.4.1
-	github.com/apache/answer-plugins/util v1.0.2
+	github.com/apache/answer v1.4.2-RC1.0.20250107023923-061894735091
+	github.com/apache/answer-plugins/util v1.0.3-0.20250107030257-cf94ebc70954
 	github.com/segmentfault/pacman v1.0.5-0.20230822083413-c0075a2d401f
 )
 

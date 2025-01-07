@@ -24,7 +24,6 @@ import (
 	"embed"
 	"encoding/json"
 	"fmt"
-	"github.com/apache/answer-plugins/util"
 	"io"
 	"regexp"
 	"strings"
@@ -32,6 +31,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/apache/answer-plugins/connector-basic/i18n"
+	"github.com/apache/answer-plugins/util"
 	"github.com/apache/answer/pkg/checker"
 	"github.com/apache/answer/plugin"
 	"github.com/segmentfault/pacman/log"

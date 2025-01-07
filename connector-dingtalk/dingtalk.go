@@ -24,10 +24,10 @@ import (
 	"embed"
 	"encoding/json"
 	"fmt"
-	"github.com/apache/answer-plugins/util"
 	"net/http"
 
 	"github.com/apache/answer-plugins/connector-dingtalk/i18n"
+	"github.com/apache/answer-plugins/util"
 	"github.com/apache/answer/plugin"
 	"github.com/segmentfault/pacman/log"
 )

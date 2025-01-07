@@ -24,10 +24,10 @@ import (
 	"embed"
 	"encoding/json"
 	"fmt"
-	"github.com/apache/answer-plugins/util"
 	"time"
 
 	"github.com/apache/answer-plugins/connector-github/i18n"
+	"github.com/apache/answer-plugins/util"
 	"github.com/apache/answer/plugin"
 	"github.com/google/go-github/v50/github"
 	"github.com/segmentfault/pacman/log"

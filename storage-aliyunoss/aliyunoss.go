@@ -25,7 +25,6 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
-	"github.com/apache/answer-plugins/util"
 	"path/filepath"
 	"strconv"
 	"strings"
@@ -33,6 +32,7 @@ import (
 
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
 	"github.com/apache/answer-plugins/storage-aliyunoss/i18n"
+	"github.com/apache/answer-plugins/util"
 	"github.com/apache/answer/plugin"
 )
 

@@ -24,12 +24,13 @@ import (
 	"embed"
 	"encoding/json"
 	"fmt"
-	"github.com/apache/answer-plugins/util"
 	"strings"
 	"sync"
 
 	"github.com/apache/answer-plugins/search-meilisearch/i18n"
+	"github.com/apache/answer-plugins/util"
 	"github.com/apache/answer/plugin"
+	"github.com/meilisearch/meilisearch-go"
 	"github.com/segmentfault/pacman/errors"
 	"github.com/segmentfault/pacman/log"
 )

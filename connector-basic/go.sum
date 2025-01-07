@@ -22,10 +22,10 @@ github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc/go.mod h1:LOuy
 github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=
 github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf/go.mod h1:ybxpYRFXyAe+OPACYpWeL0wqObRcbAqCMya13uyzqw0=
 github.com/alecthomas/units v0.0.0-20190717042225-c3de453c63f4/go.mod h1:ybxpYRFXyAe+OPACYpWeL0wqObRcbAqCMya13uyzqw0=
-github.com/apache/answer v1.4.1 h1:O7BJyhLmc0JxYgjBz/vkapN2vtI0ylFx+PdOzqROM0c=
-github.com/apache/answer v1.4.1/go.mod h1:L0GTnyO7ykalUVJkApwtbWGLfsknwSyTKdJG5V4x/d8=
-github.com/apache/answer-plugins/util v1.0.2 h1:PontocVaiEm+oTj+4aDonwWDZnxywUeHsaTwlQgclfA=
-github.com/apache/answer-plugins/util v1.0.2/go.mod h1:KPMSiM4ec4uEl2njaGINYuSl6zVmHdvPB2nHUxVcQDo=
+github.com/apache/answer v1.4.2-RC1.0.20250107023923-061894735091 h1:TmUPU0tX3VzbUO7rCBW3hJDUGO/WOI343zcbymIWQSM=
+github.com/apache/answer v1.4.2-RC1.0.20250107023923-061894735091/go.mod h1:ehAJmrP4X9kBJKlYzTtRrwRbKeRqjnHxyYlhf11yzfw=
+github.com/apache/answer-plugins/util v1.0.3-0.20250107030257-cf94ebc70954 h1:jVqxzyeHvYxAT30vGfHXtZLNoi9qAWnvTtuMSj6pFys=
+github.com/apache/answer-plugins/util v1.0.3-0.20250107030257-cf94ebc70954/go.mod h1:wQEKNXVa/BKKq5yro9qo5bFiO3/SW1noORabxEndk3o=
 github.com/apache/thrift v0.12.0/go.mod h1:cp2SuWMxlEZw2r+iP2GNCdIi4C1qmUzdZFSVb+bacwQ=
 github.com/apache/thrift v0.13.0/go.mod h1:cp2SuWMxlEZw2r+iP2GNCdIi4C1qmUzdZFSVb+bacwQ=
 github.com/armon/circbuf v0.0.0-20150827004946-bbbad097214e/go.mod h1:3U/XgcO3hCbHZ8TKRvWD2dDTCfh9M9ya+I9JpbB7O8o=

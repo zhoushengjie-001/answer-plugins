@@ -23,10 +23,10 @@ import (
 	"embed"
 	"encoding/json"
 	"fmt"
-	"github.com/apache/answer-plugins/util"
 	"strings"
 
 	"github.com/apache/answer-plugins/reviewer-basic/i18n"
+	"github.com/apache/answer-plugins/util"
 	"github.com/apache/answer/plugin"
 	myI18n "github.com/segmentfault/pacman/i18n"
 )

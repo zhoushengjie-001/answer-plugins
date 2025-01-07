@@ -22,9 +22,9 @@ package basic
 import (
 	"embed"
 	"encoding/json"
-	"github.com/apache/answer-plugins/util"
 
 	"github.com/apache/answer-plugins/reviewer-akismet/i18n"
+	"github.com/apache/answer-plugins/util"
 	"github.com/apache/answer/plugin"
 	myI18n "github.com/segmentfault/pacman/i18n"
 	"github.com/segmentfault/pacman/log"

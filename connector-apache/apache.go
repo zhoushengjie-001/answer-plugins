@@ -23,11 +23,11 @@ import (
 	"embed"
 	"encoding/json"
 	"fmt"
-	"github.com/apache/answer-plugins/util"
 	"io"
 	"net/http"
 
 	"github.com/apache/answer-plugins/connector-apache/i18n"
+	"github.com/apache/answer-plugins/util"
 	"github.com/apache/answer/pkg/token"
 	"github.com/apache/answer/plugin"
 	"github.com/segmentfault/pacman/log"

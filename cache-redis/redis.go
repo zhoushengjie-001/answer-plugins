@@ -25,11 +25,12 @@ import (
 	_ "embed"
 	"encoding/json"
 	"fmt"
-	"github.com/apache/answer-plugins/util"
 	"time"
 
 	"github.com/apache/answer-plugins/cache-redis/i18n"
+	"github.com/apache/answer-plugins/util"
 	"github.com/apache/answer/plugin"
+	"github.com/go-redis/redis/v8"
 )
 
 var (
