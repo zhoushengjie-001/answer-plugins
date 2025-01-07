@@ -1,10 +1,10 @@
-module github.com/apache/incubator-answer-plugins/cache-redis
+module github.com/apache/answer-plugins/cache-redis
 
 go 1.22.0
 
 require (
-	github.com/apache/incubator-answer v1.4.1
-	github.com/apache/incubator-answer-plugins/util v1.0.2
+	github.com/apache/answer v1.4.1
+	github.com/apache/answer-plugins/util v1.0.2
 	github.com/go-redis/redis/v8 v8.11.5
 )
 

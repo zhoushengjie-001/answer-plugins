@@ -21,12 +21,11 @@ package wecom
 
 import (
 	"embed"
-	"github.com/apache/incubator-answer/plugin"
-	"github.com/go-resty/resty/v2"
+	"github.com/apache/answer/plugin"
 	"strings"
 
-	wecomI18n "github.com/apache/incubator-answer-plugins/notification-wecom/i18n"
-	"github.com/apache/incubator-answer-plugins/util"
+	wecomI18n "github.com/apache/answer-plugins/notification-wecom/i18n"
+	"github.com/apache/answer-plugins/util"
 	"github.com/segmentfault/pacman/i18n"
 	"github.com/segmentfault/pacman/log"
 )

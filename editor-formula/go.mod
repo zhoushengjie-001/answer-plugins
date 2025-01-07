@@ -1,10 +1,10 @@
-module github.com/apache/incubator-answer-plugins/editor-formula
+module github.com/apache/answer-plugins/editor-formula
 
 go 1.22.0
 
 require (
-	github.com/apache/incubator-answer v1.4.1
-	github.com/apache/incubator-answer-plugins/util v1.0.2
+	github.com/apache/answer v1.4.1
+	github.com/apache/answer-plugins/util v1.0.2
 )
 
 require (

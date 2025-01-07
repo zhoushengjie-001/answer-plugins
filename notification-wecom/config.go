@@ -22,8 +22,8 @@ package wecom
 import (
 	"encoding/json"
 
-	"github.com/apache/incubator-answer-plugins/notification-wecom/i18n"
-	"github.com/apache/incubator-answer/plugin"
+	"github.com/apache/answer-plugins/notification-wecom/i18n"
+	"github.com/apache/answer/plugin"
 )
 
 type NotificationConfig struct {

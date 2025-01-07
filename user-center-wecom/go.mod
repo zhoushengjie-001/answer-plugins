@@ -1,10 +1,10 @@
-module github.com/apache/incubator-answer-plugins/user-center-wecom
+module github.com/apache/answer-plugins/user-center-wecom
 
 go 1.22.0
 
 require (
-	github.com/apache/incubator-answer v1.4.1
-	github.com/apache/incubator-answer-plugins/util v1.0.2
+	github.com/apache/answer v1.4.1
+	github.com/apache/answer-plugins/util v1.0.2
 	github.com/gin-gonic/gin v1.10.0
 	github.com/go-resty/resty/v2 v2.12.0
 	github.com/patrickmn/go-cache v2.1.0+incompatible

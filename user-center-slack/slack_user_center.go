@@ -26,12 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/apache/incubator-answer-plugins/util"
+	"github.com/apache/answer-plugins/util"
 
-	"github.com/apache/incubator-answer-plugins/user-center-slack/i18n"
-	"github.com/apache/incubator-answer/plugin"
+	"github.com/apache/answer-plugins/user-center-slack/i18n"
+	"github.com/apache/answer/plugin"
 	"github.com/gin-gonic/gin"
-	"github.com/patrickmn/go-cache"
 	"github.com/segmentfault/pacman/log"
 )
 

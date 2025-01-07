@@ -1,10 +1,10 @@
-module github.com/apache/incubator-answer-plugins/render-markdown-codehighlight
+module github.com/apache/answer-plugins/render-markdown-codehighlight
 
 go 1.22.0
 
 require (
-	github.com/apache/incubator-answer v1.4.1
-	github.com/apache/incubator-answer-plugins/util v1.0.2
+	github.com/apache/answer v1.4.1
+	github.com/apache/answer-plugins/util v1.0.2
 	github.com/gin-gonic/gin v1.10.0
 )
 

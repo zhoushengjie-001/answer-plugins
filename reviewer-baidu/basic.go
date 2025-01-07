@@ -22,10 +22,10 @@ package basic
 import (
 	"embed"
 	"encoding/json"
-	"github.com/apache/incubator-answer-plugins/util"
+	"github.com/apache/answer-plugins/util"
 
-	"github.com/apache/incubator-answer-plugins/reviewer-baidu/i18n"
-	"github.com/apache/incubator-answer/plugin"
+	"github.com/apache/answer-plugins/reviewer-baidu/i18n"
+	"github.com/apache/answer/plugin"
 	"github.com/lufei/baidu-golang-sdk/aip/censor"
 	myI18n "github.com/segmentfault/pacman/i18n"
 	"github.com/segmentfault/pacman/log"

@@ -5,7 +5,7 @@
 
 ### Build
 ```bash
-./answer build --with github.com/apache/incubator-answer-plugins/connector-wallet
+./answer build --with github.com/apache/answer-plugins/connector-wallet
 ```
 
 ### Use Case

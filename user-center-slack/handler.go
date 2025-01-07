@@ -28,7 +28,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/apache/incubator-answer/plugin"
+	"github.com/apache/answer/plugin"
 	"github.com/gin-gonic/gin"
 	"github.com/segmentfault/pacman/log"
 )

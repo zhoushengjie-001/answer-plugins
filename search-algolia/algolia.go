@@ -22,14 +22,14 @@ package algolia
 import (
 	"context"
 	"embed"
-	"github.com/apache/incubator-answer-plugins/util"
+	"github.com/apache/answer-plugins/util"
 	"strconv"
 	"strings"
 
 	"github.com/algolia/algoliasearch-client-go/v3/algolia/opt"
 	"github.com/algolia/algoliasearch-client-go/v3/algolia/search"
-	"github.com/apache/incubator-answer-plugins/search-algolia/i18n"
-	"github.com/apache/incubator-answer/plugin"
+	"github.com/apache/answer-plugins/search-algolia/i18n"
+	"github.com/apache/answer/plugin"
 )
 
 //go:embed  info.yaml

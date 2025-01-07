@@ -22,9 +22,9 @@ package render_markdown_codehighlight
 import (
 	"embed"
 	"encoding/json"
-	"github.com/apache/incubator-answer-plugins/render-markdown-codehighlight/i18n"
-	"github.com/apache/incubator-answer-plugins/util"
-	"github.com/apache/incubator-answer/plugin"
+	"github.com/apache/answer-plugins/render-markdown-codehighlight/i18n"
+	"github.com/apache/answer-plugins/util"
+	"github.com/apache/answer/plugin"
 	"github.com/gin-gonic/gin"
 	"strings"
 )

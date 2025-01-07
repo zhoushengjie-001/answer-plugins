@@ -1,10 +1,10 @@
-module github.com/apache/incubator-answer-plugins/notification-lark
+module github.com/apache/answer-plugins/notification-lark
 
 go 1.22.0
 
 require (
-	github.com/apache/incubator-answer v1.4.1
-	github.com/apache/incubator-answer-plugins/util v1.0.2
+	github.com/apache/answer v1.4.1
+	github.com/apache/answer-plugins/util v1.0.2
 	github.com/larksuite/oapi-sdk-go/v3 v3.3.1
 	github.com/segmentfault/pacman v1.0.5-0.20230822083413-c0075a2d401f
 )

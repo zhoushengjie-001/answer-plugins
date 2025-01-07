@@ -1,10 +1,10 @@
-module github.com/apache/incubator-answer-plugins/reviewer-baidu
+module github.com/apache/answer-plugins/reviewer-baidu
 
 go 1.22.0
 
 require (
-	github.com/apache/incubator-answer v1.4.1
-	github.com/apache/incubator-answer-plugins/util v1.0.2
+	github.com/apache/answer v1.4.1
+	github.com/apache/answer-plugins/util v1.0.2
 	github.com/lufei/baidu-golang-sdk v0.0.0-20241007032158-d85deddc0d61
 	github.com/segmentfault/pacman v1.0.5-0.20230822083413-c0075a2d401f
 )

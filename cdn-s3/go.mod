@@ -1,10 +1,10 @@
-module github.com/apache/incubator-answer-plugins/cdn-s3
+module github.com/apache/answer-plugins/cdn-s3
 
 go 1.22.0
 
 require (
-	github.com/apache/incubator-answer v1.4.1
-	github.com/apache/incubator-answer-plugins/util v1.0.2
+	github.com/apache/answer v1.4.1
+	github.com/apache/answer-plugins/util v1.0.2
 	github.com/aws/aws-sdk-go v1.44.314
 	github.com/segmentfault/pacman v1.0.5-0.20230822083413-c0075a2d401f
 )

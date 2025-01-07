@@ -25,9 +25,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/apache/incubator-answer-plugins/connector-wallet/i18n"
-	"github.com/apache/incubator-answer-plugins/util"
-	"github.com/apache/incubator-answer/plugin"
+	"github.com/apache/answer-plugins/connector-wallet/i18n"
+	"github.com/apache/answer-plugins/util"
+	"github.com/apache/answer/plugin"
 	"github.com/i-lucifer/crypto"
 	"golang.org/x/exp/rand"
 )

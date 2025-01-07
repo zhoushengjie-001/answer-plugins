@@ -1,11 +1,11 @@
-module github.com/apache/incubator-answer-plugins/cdn-aliyun
+module github.com/apache/answer-plugins/cdn-aliyun
 
 go 1.22.0
 
 require (
 	github.com/aliyun/aliyun-oss-go-sdk v3.0.2+incompatible
-	github.com/apache/incubator-answer v1.4.1
-	github.com/apache/incubator-answer-plugins/util v1.0.2
+	github.com/apache/answer v1.4.1
+	github.com/apache/answer-plugins/util v1.0.2
 	github.com/segmentfault/pacman v1.0.5-0.20230822083413-c0075a2d401f
 )
 

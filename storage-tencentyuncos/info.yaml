@@ -19,4 +19,4 @@ slug_name: tencentyuncos_storage
 type: storage
 version: 1.0.1
 author: Luffy
-link: https://github.com/apache/incubator-answer-plugins/tree/main/storage-tencentyuncos
+link: https://github.com/apache/answer-plugins/tree/main/storage-tencentyuncos

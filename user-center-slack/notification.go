@@ -22,9 +22,8 @@ package slack_user_center
 import (
 	"strings"
 
-	slackI18n "github.com/apache/incubator-answer-plugins/user-center-slack/i18n"
-	"github.com/apache/incubator-answer/plugin"
-	"github.com/go-resty/resty/v2"
+	slackI18n "github.com/apache/answer-plugins/user-center-slack/i18n"
+	"github.com/apache/answer/plugin"
 	"github.com/segmentfault/pacman/i18n"
 	"github.com/segmentfault/pacman/log"
 )

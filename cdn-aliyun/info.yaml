@@ -19,4 +19,4 @@ slug_name: aliyun_cdn
 type: cdn
 version: 1.0.2
 author: answerdev
-link: https://github.com/apache/incubator-answer-plugins/tree/main/cdn-aliyun
+link: https://github.com/apache/answer-plugins/tree/main/cdn-aliyun

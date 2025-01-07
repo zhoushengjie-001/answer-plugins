@@ -19,4 +19,4 @@ slug_name: s3_cdn
 type: cdn
 version: 1.0.2
 author: answerdev
-link: https://github.com/apache/incubator-answer-plugins/tree/main/cdn-s3
+link: https://github.com/apache/answer-plugins/tree/main/cdn-s3

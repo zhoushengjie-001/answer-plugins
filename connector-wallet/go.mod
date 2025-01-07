@@ -1,10 +1,10 @@
-module github.com/apache/incubator-answer-plugins/connector-wallet
+module github.com/apache/answer-plugins/connector-wallet
 
 go 1.22.0
 
 require (
-	github.com/apache/incubator-answer v1.4.1
-	github.com/apache/incubator-answer-plugins/util v1.0.2
+	github.com/apache/answer v1.4.1
+	github.com/apache/answer-plugins/util v1.0.2
 	github.com/i-lucifer/crypto v0.0.2
 	golang.org/x/exp v0.0.0-20240909161429-701f63a606c0
 )
