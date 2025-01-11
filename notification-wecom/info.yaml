@@ -15,7 +15,7 @@
 # specific language governing permissions and limitations
 # under the License.
 
-slug_name: notification_wecom
+slug_name: wecom_notification
 type: notification
 version: 1.0.1
 author: lihui
