@@ -180,25 +180,6 @@ func (r *Reviewer) ConfigFields() []plugin.ConfigField {
 			},
 		},
 		{
-			Name:  "review_post_all",
-			Type:  plugin.ConfigTypeSwitch,
-			Title: plugin.MakeTranslator(i18n.ConfigReviewPostTitle),
-			UIOptions: plugin.ConfigFieldUIOptions{
-				Label:          plugin.MakeTranslator(i18n.ConfigReviewPostLabelAll),
-				FieldClassName: "mb-0",
-			},
-			Value: r.Config.PostAllNeedReview,
-		},
-		{
-			Name:        "review_post",
-			Type:        plugin.ConfigTypeSwitch,
-			Description: plugin.MakeTranslator(i18n.ConfigReviewPostDescription),
-			UIOptions: plugin.ConfigFieldUIOptions{
-				Label: plugin.MakeTranslator(i18n.ConfigReviewPostLabelFirst),
-			},
-			Value: r.Config.PostNeedReview,
-		},
-		{
 			Name:        "review_post_keywords",
 			Type:        plugin.ConfigTypeTextarea,
 			Title:       plugin.MakeTranslator(i18n.ConfigReviewPostKeywordsTitle),
