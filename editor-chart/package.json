@@ -47,6 +47,6 @@
     "vite-plugin-dts": "^3.9.1"
   },
   "dependencies": {
-    "mermaid": "^9.1.7"
+    "mermaid": "9.1.7"
   }
 }
