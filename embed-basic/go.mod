@@ -4,7 +4,6 @@ go 1.22.0
 
 require (
 	github.com/apache/answer v1.4.2-RC1.0.20250107023923-061894735091
-	github.com/apache/answer-plugins/embed-basic v0.0.0-00010101000000-000000000000
 	github.com/apache/answer-plugins/util v1.0.3-0.20250107030257-cf94ebc70954
 	github.com/gin-gonic/gin v1.10.0
 )
@@ -26,6 +25,7 @@ require (
 	github.com/gorilla/css v1.0.1 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.8 // indirect
+	github.com/kr/text v0.2.0 // indirect
 	github.com/leodido/go-urn v1.4.0 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/microcosm-cc/bluemonday v1.0.27 // indirect
