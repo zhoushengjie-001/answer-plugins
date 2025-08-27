@@ -26,8 +26,8 @@ import (
 	"github.com/apache/answer-plugins/util"
 	"github.com/gin-gonic/gin"
 
-	"github.com/apache/answer-plugins/embed-basic/i18n"
 	"github.com/apache/answer/plugin"
+	"github.com/zhoushengjie-001/answer-plugins/embed-basic/i18n"
 )
 
 //go:embed  info.yaml
