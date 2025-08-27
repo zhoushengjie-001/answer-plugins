@@ -1,4 +1,4 @@
-module github.com/apache/answer-plugins/embed-basic
+module github.com/zhoushengjie-001/answer-plugins/embed-basic
 
 go 1.22.0
 
