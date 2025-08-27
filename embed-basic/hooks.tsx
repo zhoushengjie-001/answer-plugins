@@ -29,6 +29,7 @@ import {
   LoomEmbed,
   DropboxEmbed,
   TwitterEmbed,
+  SoquantEmbed,
 } from './components';
 import { Request } from './types';
 
@@ -166,6 +167,15 @@ const useRenderEmbed = (
       ],
       embed: (dropboxId: string) => {
         return <DropboxEmbed dropboxId={dropboxId} />;
+      },
+    },
+    {
+      name: 'Soquant',
+      regexs: [
+        /https:\/\/www\.soquant\.com\/renderer\/research\/([a-zA-Z0-9_]+)/,
+      ],
+      embed: (reportId: string) => {
+        return <SoquantEmbed reportId={reportId} />;
       },
     },
   ];

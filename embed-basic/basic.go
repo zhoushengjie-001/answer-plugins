@@ -22,6 +22,7 @@ package embed_basic
 import (
 	"embed"
 	"encoding/json"
+
 	"github.com/apache/answer-plugins/util"
 	"github.com/gin-gonic/gin"
 
@@ -49,6 +50,7 @@ type EmbedConfig struct {
 	Loom       bool `json:"loom"`
 	Twitter    bool `json:"twitter"`
 	Youtube    bool `json:"youtube"`
+	Soquant    bool `json:"soquant"`
 }
 
 func init() {
@@ -154,6 +156,15 @@ func (e *Embed) ConfigFields() []plugin.ConfigField {
 			},
 			Value:       e.Config.Youtube,
 			Description: plugin.MakeTranslator(i18n.ConfigEmbedsDescription),
+		},
+		{
+			Name: "Soquant",
+			Type: plugin.ConfigTypeSwitch,
+			UIOptions: plugin.ConfigFieldUIOptions{
+				Label:          plugin.MakeTranslator(i18n.ConfigOptionSoquant),
+				FieldClassName: "mb-0",
+			},
+			Value: e.Config.Soquant,
 		},
 	}
 }

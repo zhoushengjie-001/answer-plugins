@@ -48,6 +48,8 @@ plugin:
             other: X(Twitter)
           youtube:
             other: YouTube
+          soquant:
+            other: Soquant
     frontend:
       header: Add Embed
       title: Title

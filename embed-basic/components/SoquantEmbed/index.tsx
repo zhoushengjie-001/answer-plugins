@@ -17,26 +17,20 @@
  * under the License.
  */
 
-import GithubGistEmbed from './GithubGistEmbed';
-import CodePenEmbed from './CodePenEmbed';
-import YouTubeEmbed from './YouTubeEmbed';
-import JSFiddleEmbed from './JSFiddleEmbed';
-import FigmaEmbed from './FigmaEmbed';
-import ExcalidrawEmbed from './ExcalidrawEmbed';
-import LoomEmbed from './LoomEmbed';
-import DropboxEmbed from './DropboxEmbed';
-import TwitterEmbed from './TwitterEmbed';
-import SoquantEmbed from './SoquantEmbed';
+import EmbedContainer from '../EmbedContainer';
 
-export {
-  GithubGistEmbed,
-  CodePenEmbed,
-  YouTubeEmbed,
-  JSFiddleEmbed,
-  FigmaEmbed,
-  ExcalidrawEmbed,
-  LoomEmbed,
-  DropboxEmbed,
-  TwitterEmbed,
-  SoquantEmbed,
+const SoquantEmbed = ({ reportId }) => {
+  return (
+    <EmbedContainer height={580}>
+      <iframe
+        width="100%"
+        height="100%"
+        src={`https://www.soquant.cn/renderer/research/${reportId}`}
+        title="数矿"
+        allowFullScreen
+      />
+    </EmbedContainer>
+  );
 };
+
+export default SoquantEmbed;
