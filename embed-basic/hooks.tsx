@@ -169,6 +169,16 @@ const useRenderEmbed = (
         return <DropboxEmbed dropboxId={dropboxId} />;
       },
     },
+    {
+      name: 'Soquant',
+      regexs: [
+        /https:\/\/www\.soquant\.cn\/renderer\/research\/([a-zA-Z0-9_]+)(\?[^\s]*)?/,
+      ],
+      embed: (url) => {
+        console.log("url===>", url);
+        return <SoquantEmbed url={url} />;
+      },
+    },
   ];
 
   const filteredEmbeds = embeds.filter((embed) => {
