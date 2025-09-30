@@ -174,8 +174,8 @@ const useRenderEmbed = (
       regexs: [
         /https:\/\/www\.soquant\.cn\/renderer\/research\/([a-zA-Z0-9_]+)(\?[^\s]*)?/,
       ],
-      embed: (url) => {
-        console.log("url===>", url);
+      embed: (a, url) => {
+        console.log("a--url===>", a, url);
         return <SoquantEmbed url={url} />;
       },
     },
