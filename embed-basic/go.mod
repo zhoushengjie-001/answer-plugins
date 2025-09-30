@@ -46,4 +46,4 @@ require (
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
-replace github.com/apache/answer-plugins/embed-basic => github.com/zhoushengjie-001/answer-plugins/embed-basic v0.0.0-20250827010620-f32a7ff88049
+replace github.com/apache/answer-plugins/embed-basic => github.com/zhoushengjie-001/answer-plugins/embed-basic v0.0.0-20250930034213-614c726a1eec
