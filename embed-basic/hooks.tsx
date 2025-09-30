@@ -172,10 +172,10 @@ const useRenderEmbed = (
     {
       name: 'Soquant',
       regexs: [
-        /https:\/\/www\.soquant\.cn\/renderer\/research\/([a-zA-Z0-9_]+)/,
+        /https:\/\/www\.soquant\.cn\/renderer\/research\/([a-zA-Z0-9_]+)(\?[^\s]*)?/,
       ],
-      embed: (reportId: string) => {
-        return <SoquantEmbed reportId={reportId} />;
+      embed: (reportId, url) => {
+        return <SoquantEmbed url={url} />;
       },
     },
   ];
