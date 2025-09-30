@@ -19,13 +19,13 @@
 
 import EmbedContainer from '../EmbedContainer';
 
-const SoquantEmbed = ({ reportId }) => {
+const SoquantEmbed = ({ url }) => {
   return (
     <EmbedContainer height={580}>
       <iframe
         width="100%"
         height="100%"
-        src={`https://www.soquant.cn/renderer/research/${reportId}`}
+        src={url}
         title="数矿"
         allowFullScreen
       />
