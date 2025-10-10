@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import WechatShareComponent from './components/WechatShare/index';
+import WechatShareComponent from './components/WechatShare/index.tsx';
 import { Request } from './types';
 
 interface Config {
@@ -122,5 +122,3 @@ export const useWechatShare = (
     };
   }, [element, configs]);
 };
-
-

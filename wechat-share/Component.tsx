@@ -5,6 +5,13 @@ import { useTranslation } from 'react-i18next';
 import WechatShareModal from './components/WechatShareModal';
 import { useWechatShare } from './hooks';
 
+// 添加接口定义
+interface ShareData {
+  title: string;
+  description: string;
+  imageUrl: string;
+}
+
 const Component = ({ editor, previewElement }) => {
   const [show, setShowState] = useState(false);
   const { t } = useTranslation('plugin', {
@@ -24,7 +31,7 @@ const Component = ({ editor, previewElement }) => {
     setShowState(true);
   };
 
-  const handleConfirm = ({ title, description, imageUrl }) => {
+  const handleConfirm = ({ title, description, imageUrl }: ShareData) => {
     setShowState(false);
     const cursor = editor.getCursor();
     if (cursor.ch !== 0) {
