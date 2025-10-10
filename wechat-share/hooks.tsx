@@ -43,7 +43,7 @@ export const useWechatShare = (
 
     const getConfigs = async () => {
       try {
-        const data = await request.get('/answer/api/v1/embed/config');
+        const data = await request.get('/answer/api/v1/plugin/config');
         const wechatEnabled = data?.wechat || false;
         if (wechatEnabled) {
           setConfigs([{ platform: 'wechat_share', enable: true }]);
@@ -122,3 +122,4 @@ export const useWechatShare = (
     };
   }, [element, configs]);
 };
+
