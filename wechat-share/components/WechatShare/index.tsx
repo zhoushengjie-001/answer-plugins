@@ -16,7 +16,7 @@ const isMobile = () => {
   return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 };
 
-const WechatShareComponent: React.FC<WechatShareProps> = ({ title, description, imageUrl }) => {
+const WechatShareComponent: React.FC<WechatShareProps> = ({ title, description, imageUrl }: any) => {
   const { t } = useTranslation('plugin', { keyPrefix: 'wechat_share.frontend' });
   const [isWxEnv, setIsWxEnv] = useState(false);
   const [isMobileEnv, setIsMobileEnv] = useState(false);
@@ -110,5 +110,6 @@ const WechatShareComponent: React.FC<WechatShareProps> = ({ title, description, 
     </Card>
   );
 };
+
 
 export default WechatShareComponent;
