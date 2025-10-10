@@ -1,9 +1,18 @@
 import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import react from '@vitejs/plugin-react-swc';
+import dts from 'vite-plugin-dts';
+import ViteYaml from '@modyfi/vite-plugin-yaml';
 import { resolve } from 'path';
+import packageJson from './package.json';
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    dts({
+      insertTypesEntry: true,
+    }),
+    ViteYaml(),
+  ],
   build: {
     lib: {
       entry: resolve(__dirname, 'index.ts'),
