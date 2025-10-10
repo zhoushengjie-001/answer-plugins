@@ -12,7 +12,7 @@ interface ShareData {
   imageUrl: string;
 }
 
-const Component = ({ editor, previewElement }) => {
+const Component = ({ editor, previewElement }: any) => {
   const [show, setShowState] = useState(false);
   const { t } = useTranslation('plugin', {
     keyPrefix: 'wechat_share.frontend',
@@ -55,5 +55,6 @@ const Component = ({ editor, previewElement }) => {
     </>
   );
 };
+
 
 export default Component;
