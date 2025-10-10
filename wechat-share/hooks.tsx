@@ -1,4 +1,4 @@
-import { useEffect, useState, ReactElement, isValidElement } from 'react';
+import React, { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import WechatShareComponent from './components/WechatShare';
 import { Request } from './types';
@@ -15,7 +15,7 @@ const get = async (url: string) => {
 };
 
 export const useWechatShare = (
-  element,
+  element: HTMLElement | null,
   request: Request = {
     get,
   },
@@ -75,10 +75,10 @@ export const useWechatShare = (
           embed.regexs.forEach((regex) => {
             if (regex.test(text)) {
               hasMatch = true;
-              newHTML = text.replace(regex, (match, ...args) => {
+              newHTML = text.replace(regex, (match: string, title: string, description: string, imageUrl: string) => {
                 const tempDiv = document.createElement('div');
                 const root = createRoot(tempDiv);
-                const component = embed.embed(match, ...args);
+                const component = embed.embed(match, title, description, imageUrl);
                 root.render(component);
                 return tempDiv.innerHTML;
               });
