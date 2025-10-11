@@ -2,7 +2,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react-swc';
 import dts from 'vite-plugin-dts';
 import ViteYaml from '@modyfi/vite-plugin-yaml';
-import { resolve } from 'path';
 import packageJson from './package.json';
 
 export default defineConfig({
@@ -15,13 +14,12 @@ export default defineConfig({
   ],
   build: {
     lib: {
-      entry: resolve(__dirname, 'index.ts'),
-      name: 'WechatShare',
-      fileName: 'index',
-      formats: ['es'],
+      entry: 'index.ts',
+      name: packageJson.name,
+      fileName: (format) => `${packageJson.name}.${format}.js`
     },
     rollupOptions: {
-      external: ['react', 'react-dom', 'react-bootstrap', 'react-i18next'],
+      external: ['react', 'react-dom', 'react-bootstrap', 'react-i18next', 'react-bootstrap'],
       output: {
         globals: {
           react: 'React',
@@ -30,7 +28,6 @@ export default defineConfig({
           'react-i18next': 'ReactI18next',
         },
       },
-    },
-    outDir: 'components',
+    }
   },
 });
