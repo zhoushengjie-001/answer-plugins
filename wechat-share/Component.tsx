@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Button } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 
-import WechatShareModal from './components/WechatShareModal/index';
+import WechatShareModal from './components/WechatShareModal/index.tsx';
 import { useWechatShare } from './hooks';
 
 // 添加接口定义
@@ -58,4 +58,5 @@ const Component = ({ editor, previewElement }: any) => {
 
 
 export default Component;
+
 
