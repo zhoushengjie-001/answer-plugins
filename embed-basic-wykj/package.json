@@ -1,18 +1,18 @@
 {
-  "name": "embed-basic",
+  "name": "embed-basic-wykj",
   "version": "1.1.5",
   "description": "",
   "files": [
     "dist",
     "README.md"
   ],
-  "main": "./dist/embed-basic.umd.js",
-  "module": "./dist/embed-basic.es.js",
-  "types": "./dist/embed-basic.d.ts",
+  "main": "./dist/embed-basic-wykj.umd.js",
+  "module": "./dist/embed-basic-wykj.es.js",
+  "types": "./dist/embed-basic-wykj.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/embed-basic.es.js",
-      "require": "./dist/embed-basic.umd.js"
+      "import": "./dist/embed-basic-wykj.es.js",
+      "require": "./dist/embed-basic-wykj.umd.js"
     }
   },
   "scripts": {
