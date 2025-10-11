@@ -19,5 +19,4 @@
   },
   "include": ["src", "*.ts", "*.tsx", "yaml.d.ts"],
   "references": [{"path": "./tsconfig.node.json"}]
-
 }

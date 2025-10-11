@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import WechatShareComponent from './components/WechatShare/index.tsx';
+import { WechatShareComponent } from './components';
 import { Request } from './types';
 
 interface Config {
@@ -121,7 +121,4 @@ export const useWechatShare = (
       observer.disconnect();
     };
   }, [element, configs]);
-
 };
-
-
