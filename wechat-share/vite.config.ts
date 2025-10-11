@@ -19,13 +19,13 @@ export default defineConfig({
       fileName: (format) => `${packageJson.name}.${format}.js`
     },
     rollupOptions: {
-      external: ['react', 'react-dom', 'react-bootstrap', 'react-i18next', 'react-bootstrap'],
+      external: ['react', 'react-dom', 'react-bootstrap', 'react-bootstrap', 'react-i18next'],
       output: {
         globals: {
           react: 'React',
           'react-dom': 'ReactDOM',
-          'react-bootstrap': 'ReactBootstrap',
           'react-i18next': 'ReactI18next',
+          'react-bootstrap': 'ReactBootstrap',
         },
       },
     }
