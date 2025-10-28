@@ -21,7 +21,7 @@ import EmbedContainer from '../EmbedContainer';
 
 const SoquantEmbed = ({ url }) => {
   return (
-    <EmbedContainer height={580}>
+    <EmbedContainer height={470}>
       <iframe
         width="100%"
         height="100%"
